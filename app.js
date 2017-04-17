@@ -1,5 +1,5 @@
 
-require('dotenv-extended').load();
+//require('dotenv-extended').load();
 
 var builder = require('botbuilder');
 var https = require('https');
@@ -17,8 +17,8 @@ var location_index = angolia_Client.initIndex('locations_index');
 
 
 var connector = new builder.ChatConnector({
-   appId: process.env.MICROSOFT_APP_ID,
-    appPassword: process.env.MICROSOFT_APP_PASSWORD
+   appId: '1716751e-b063-48e2-8e34-737258773ebf',
+    appPassword: 'skXdUONeuF81iDjmLvjMn4N'
 }
 );
 
