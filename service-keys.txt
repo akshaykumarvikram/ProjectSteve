@@ -3,6 +3,8 @@ google static maps api: AIzaSyC_Bs4TTCXKrwKpgEKpgCu3AnB9Vs6F1qw
 google embedded maps api: AIzaSyAosOQVRLKcmZPmXCXEYT7kOv3xBHiX4IE
 google reverse geocode api: AIzaSyDRgPSaSxbTWjz8pGU2uRkW6iHd1uBp2AQ
 
-https://maps.google.com/?q=Babbio+Center+%4040.742800,-74.02672340.742954	-74.026701
-'https://maps.googleapis.com/maps/api/staticmap?center=40.742623,-74.026857&markers=markers=color:blue%7Clabel:S%7C40.742623,-74.026857&zoom=12&size=400x400&key=AIzaSyC_Bs4TTCXKrwKpgEKpgCu3AnB9Vs6F1qw
+Algoliasearch: ID:'JN5NIQVNJZ' PWD:'dd9e5d91cd5b1d46c335dc6a9a28b892' Index: 'locations_index';
+
+microsoft-ID: 1716751e-b063-48e2-8e34-737258773ebf
+microsoft-password: skXdUONeuF81iDjmLvjMn4N
 

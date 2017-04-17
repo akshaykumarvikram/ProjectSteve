@@ -5,7 +5,8 @@ module.exports = function(bot){
         function(session,args,next){
             session.dialogData = args;
            // session.send("The class "+session.dialogData.algolia_data.location_name+" is located in "+session.dialogData.algolia_data.address);
-            builder.Prompts.choice(session,"The class "+session.dialogData.algolia_data.location_name+" is located in "+session.dialogData.algolia_data.address+"Do you want directions for this location?",["Yes","No"],{listStyle: builder.ListStyle.button});
+           session.sendTyping();
+           builder.Prompts.choice(session,"The class "+session.dialogData.algolia_data.location_name+" is located in "+session.dialogData.algolia_data.address+"Do you want directions for this location?",["Yes","No"],{listStyle: builder.ListStyle.button});
         },
         function(session,results){
             if(results.response == 'No'){

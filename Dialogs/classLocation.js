@@ -9,7 +9,7 @@ bot.dialog('/classLocation',[
     function(session,results,next){
         console.log('-----------------------------------------Below this--------------------------------------------------------------------')
         console.log(results.response)
-        if(results.response == 'No'){
+        if(results.response.entity == 'No'){
             session.endDialog('Ok, Have a good day!');
         }else {
         url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng='+session.dialogData.angolia_results.latitude+','+session.dialogData.angolia_results.longitude+'&key=AIzaSyDRgPSaSxbTWjz8pGU2uRkW6iHd1uBp2AQ';

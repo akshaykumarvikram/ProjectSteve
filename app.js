@@ -1,4 +1,6 @@
 
+require('dotenv-extended').load();
+
 var builder = require('botbuilder');
 var https = require('https');
 var querystring = require('querystring')
@@ -14,10 +16,10 @@ var location_index = angolia_Client.initIndex('locations_index');
 
 
 
-var connector = new builder.ChatConnector(//{
-   // appId: process.env.MICROSOFT_APP_ID,
-   // appPassword: process.env.MICROSOFT_APP_PASSWORD
-//}
+var connector = new builder.ChatConnector({
+   appId: process.env.MICROSOFT_APP_ID,
+    appPassword: process.env.MICROSOFT_APP_PASSWORD
+}
 );
 
 var bot = new builder.UniversalBot(connector);
