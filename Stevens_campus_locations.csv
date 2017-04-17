@@ -1,0 +1,101 @@
+ID,Building,Address,Latitude,Longitude
+1,"Edwin A. Stevens Hall and
+DeBaun Auditorium","501 Hudson St, Hoboken, NJ 07030",40.742328,-74.027723
+2,Carnegie Laboratory,"Hoboken, NJ 07030",40.743081,-74.027801
+3,Lieb building,"531 County Rd 679,Hoboken, NJ 07030",40.743161,-74.027774
+4,Burchard Building,"Hoboken, NY 07030",40.742977,-74.027314
+5,McLean Hall,"500-554 River Street, Hoboken, NJ 07030",40.742114,-74.026955
+6,Babbio Centre,"525 River Street
+Hoboken, NJ 07030",40.742954,-74.026701
+7,Morton-Peirce-Kidde Complex,"607 River St, Hoboken, NJ 07030",40.743668,-74.026629
+8,Rocco Technology Center,"614 River St, Hoboken, NJ",40.743809,-74.027083
+9,Nicoll Environmental Laboratory,,,
+10,Davidson Laboratory,"701-711 Hudson St, Hoboken, NJ 07030",,
+11,Campus police,"525 River Street
+Hoboken, NJ 07030",40.742954,-74.026701
+12,Griffith Building,"Frank Sinatra Dr,Hoboken, NJ 07030",40.742812,-74.02514
+13,Walker Gymnasium,"Hoboken, NJ 07030",40.743769,-74.025764
+14,Schaefer Athletic and Recreation Center,"Hoboken, NJ 07030","40.744809,",-74.025309
+15,Samuel C. Williams Library and Computer Center,"Castle Point Terrace, Hoboken, NJ 07030","40.744838, ",-74.025322
+16,Wesley J. Howe Center,"Castle Point Terrace, Hoboken, NJ 07030",40.744874,-74.025322
+17,Visitors Information desk,"Castle Point Terrace, Hoboken, NJ 07030",40.744874,-74.025322
+18,Hoxie House,"Babbio Dr,Hoboken, NJ 07030",40.746362,-74.023832
+19,Alexander House,"Babbio Dr,Hoboken, NJ 07030",40.746011,-74.02444
+20,Ruesterholz Admissions Center,"Wesley J. Howe Center, Hoboken, NJ 07030","40.744782, ",-74.023849
+21,Kenneth J. Altorfer Academic Complex,"Hoboken, NJ 07030",40.44371,-74.01377
+22,Pond House,"Hoboken, NJ 07030",40.746422,-74.025235
+23,Hanlon Financial Lab,"525 River Street
+Hoboken, NJ 07030",40.742954,-74.026701
+24,Dobbelaar Field,"Wittpen Walk, Hoboken, NJ 07030",40.744319,-74.026695
+25,A 501,"Kenneth J. Altorfer Academic Complex,Hoboken, NJ 07030",40.44371,40.44371
+26,B 118,"Burchard Building, Hoboken,NJ 07030",40.742977,-74.027314
+27,B 430,"Burchard Building, Hoboken,NJ 07030",40.742977,-74.027314
+28,B 514,"Burchard Building, Hoboken,NJ 07030",40.742977,-74.027314
+29,B 714,"Burchard Building, Hoboken,NJ 07030",40.742977,-74.027314
+30,B 715,"Burchard Building, Hoboken,NJ 07030",40.742977,-74.027314
+31,BC 104,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+32,BC 110,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+33,BC 122,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+34,BC 202,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+35,BC 203,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+36,BC 204,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+37,BC 210,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+38,BC 219,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+39,BC 220,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+40,BC 221,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+41,BC 304,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+42,BC 310,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+43,BC 319,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+44,BC 320,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+45,BC 321,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+46,C 315,"Carnegie Laboratory, Hoboken, NJ 07030",40.743081,-74.027801
+47,C 316,"Carnegie Laboratory, Hoboken, NJ 07030",40.743081,-74.027801
+48,E 130,"Edwin A. Stevens Hall,501 Hudson St, Hoboken, NJ 07030",40.74325,-74.027719
+49,E 222,"Edwin A. Stevens Hall,501 Hudson St, Hoboken, NJ 07030",40.74325,-74.027719
+50,E 229,"Edwin A. Stevens Hall,501 Hudson St, Hoboken, NJ 07030",40.74325,-74.027719
+51,E 229A,"Edwin A. Stevens Hall,501 Hudson St, Hoboken, NJ 07030",40.74325,-74.027719
+52,E 230,"Edwin A. Stevens Hall,501 Hudson St, Hoboken, NJ 07030",40.74325,-74.027719
+53,E 231,"Edwin A. Stevens Hall,501 Hudson St, Hoboken, NJ 07030",40.74325,-74.027719
+54,E 329,"Edwin A. Stevens Hall,501 Hudson St, Hoboken, NJ 07030",40.74325,-74.027719
+55,E 330,"Edwin A. Stevens Hall,501 Hudson St, Hoboken, NJ 07030",40.74325,-74.027719
+56,K 228,"Morton-Peirce-Kidde Complex,607 River St, Hoboken, NJ 07030",40.743468,-74.026775
+57,K 360,"Morton-Peirce-Kidde Complex,607 River St, Hoboken, NJ 07030",40.743468,-74.026775
+58,K 390,"Morton-Peirce-Kidde Complex,607 River St, Hoboken, NJ 07030",40.743468,-74.026775
+59,L 120,"Lieb Building,531 County Rd 679,Hoboken, NJ 07030",40.743161,-74.027774
+60,P 116,"Morton-Peirce-Kidde Complex,607 River St, Hoboken, NJ 07030",40.743668,-74.026629
+61,P 120,"Morton-Peirce-Kidde Complex,607 River St, Hoboken, NJ 07030",40.743668,-74.026629
+62,P 216,"Morton-Peirce-Kidde Complex,607 River St, Hoboken, NJ 07030",40.743668,-74.026629
+63,P 218,"Morton-Peirce-Kidde Complex,607 River St, Hoboken, NJ 07030",40.743668,-74.026629
+64,P 220,"Morton-Peirce-Kidde Complex,607 River St, Hoboken, NJ 07030",40.743668,-74.026629
+65,X 104,"McLean Hall,Hoboken, NJ 07030",40.742114,-74.026998
+66,X 105,"McLean Hall,Hoboken, NJ 07030",40.742114,-74.026998
+67,X 106,"McLean Hall,Hoboken, NJ 07030",40.742114,-74.026998
+68,X 119,"McLean Hall,Hoboken, NJ 07030",40.742114,-74.026998
+69,X 218A,"McLean Hall,Hoboken, NJ 07030",40.742114,-74.026998
+70,X 218B,"McLean Hall,Hoboken, NJ 07030",40.742114,-74.026998
+71,X 414,"McLean Hall,Hoboken, NJ 07030",40.742114,-74.026998
+72,Library,"Castle Point Terrace, Hoboken, NJ 07030","40.744838, ",-74.025322
+73,SC Library,"Castle Point Terrace, Hoboken, NJ 07030","40.744838, ",-74.025322
+74,Gym,"Hoboken, NJ 07030","40.744809,",-74.025309
+75,Swimming Pool,"Hoboken, NJ 07030","40.744809,",-74.025309
+76,racquetball,"Hoboken, NJ 07030","40.744809,",-74.025309
+77,racquet ball,"Hoboken, NJ 07030","40.744809,",-74.025309
+78,Badminton,"Hoboken, NJ 07030","40.744809,",-74.025309
+79,BC104,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+80,BC110,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+81,BC122,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+82,BC202,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+83,BC203,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+84,BC204,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+85,BC210,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+86,BC219,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+87,BC220,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+88,BC221,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+89,BC304,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+90,BC310,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+91,BC319,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+92,BC320,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+93,BC321,"Babbio Centre, 525 River Street ,Hoboken, NJ 07030",40.742954,-74.026701
+94,EAS,"501 Hudson St, Hoboken, NJ 07030",40.742328,-74.027723
+95,Edward Hall,"502 Hudson St, Hoboken, NJ 07030",40.742328,-74.027723
+96,Debaun,"503 Hudson St, Hoboken, NJ 07030",40.742328,-74.027723
