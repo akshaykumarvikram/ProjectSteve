@@ -2,9 +2,11 @@ var builder = require('botbuilder');
 module.exports = function(bot){
     bot.dialog('/ShuttleServices',[
     function(session,args,next){
+        console.log('-----------------------------------------------------------------------------------')
+        console.log(args)
         var shuttleLine = builder.EntityRecognizer.findEntity(args.entities,'shuttleline');
         
-        if(shuttleLine.entity){
+        if(shuttleLine && shuttleLine.entity){
             console.log('first one got executed'+ shuttleLine.entity);
             if(!('red green blue grey'.includes(shuttleLine.entity.toLowerCase()))){
 
@@ -17,14 +19,16 @@ module.exports = function(bot){
         }
     },
     function(session,results){
-        var line = results.response.entity;
+        var line = results.response;
         var url = 'http://stevens.transloc.com/';
         var title = 'Stevens Shuttle services';
         var subtitle = "";
-        if(line){
+        if(line && line.entity){
             console.log('this got executed')
             console.log(line);
-            line = line.toLowerCase();
+            line = line.entity.toLowerCase();
+        } else {
+            line = "";
         }
         
         switch(line){
@@ -55,8 +59,9 @@ module.exports = function(bot){
             .title (title)
             .subtitle('Weekdays: 5:30AM - 12:00AM,\n Saturday: 7:30AM - 2:10AM,\n Sunday: 12:00PM to 2:00AM')
             .text()
-            .images([builder.CardImage.create(session,'https://www.stevens.edu/sites/stevens_edu/files/styles/topic_single_content_350x234/public/new_shuttle_map_0.png?itok=0JKpT-dn')])
-            .tap([builder.CardAction.openUrl(session,url)]);
+            .images([builder.CardImage.create(session,'https://www.stevens.edu/sites/stevens_edu/files/styles/topic_single_content_350x234/public/new_shuttle_map_0.png?itok=0JKpT-dn')]);
+            
+            card.tap(new builder.CardAction.openUrl(session, url));
         session.sendTyping();
         session.send(new builder.Message(session).attachments([card]));
         session.endDialog()

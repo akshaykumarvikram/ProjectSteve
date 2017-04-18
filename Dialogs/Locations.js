@@ -1,54 +1,12 @@
-
-
 var builder = require('botbuilder');
-var https = require('https');
-var querystring = require('querystring')
-var restify = require('restify');
-
+var request = require('sync-request');
 var algoliasearch = require('algoliasearch');
-var request = require('sync-request')
-
-var model = 'https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/5bbe2f1f-fda0-4c62-8b8e-ebf0cebff9a2?subscription-key=42429861bf2a47619444bbc392835c15&timezoneOffset=0.0&verbose=true&spellCheck=false&q='
-
 var algolia_Client = algoliasearch('JN5NIQVNJZ', 'dd9e5d91cd5b1d46c335dc6a9a28b892');
 var location_index = algolia_Client.initIndex('locations_index');
 
 
-
-var connector = new builder.ChatConnector({
-   appId: '1716751e-b063-48e2-8e34-737258773ebf',
-   appPassword: 'skXdUONeuF81iDjmLvjMn4N'
-}
-);
-
-var bot = new builder.UniversalBot(connector);
-
-var recognizer = new builder.LuisRecognizer(model)
-var intents = new builder.IntentDialog({recognizers: [recognizer]});
-
-const dialog = {
-    welcome: require('./Dialogs/welcome'),
-    Locations: require('./Dialogs/Locations'),
-   // classLocation: require('./Dialogs/classLocation'),
-    ShuttleServices: require('./Dialogs/ShuttleServices'),
-    confused: require('./Dialogs/confused.js')
-};
-
-intents.matches('Greetings','/welcome');
-intents.matches('Locations','/Locations');
-intents.matches('FAQ','/FAQ');
-intents.matches('ShuttleServices','/ShuttleServices')
-intents.onDefault('/confused');
-
-bot.dialog('/',intents);
-dialog.welcome(bot);
-dialog.Locations(bot);
-//dialog.classLocation(bot);
-dialog.ShuttleServices(bot);
-dialog.confused(bot);
-
-
-bot.dialog('/LLocations',[
+module.exports = function(bot){
+bot.dialog('/Locations',[
     function(session,args,next){
         session.dialogData.luis_data = args;
 
@@ -62,7 +20,9 @@ bot.dialog('/LLocations',[
     });
 }, function(session,results,next){
     session.dialogData.algolia_data = results.response;
-    var category = results.response.category;
+    var category = "";
+    if(results.response && results.response.category){
+     category = results.response.category;}
     if(category == 'building'){
         next({response: 'Yes'});
     }else if(category == 'office' || category == 'classroom'){
@@ -111,14 +71,4 @@ bot.dialog('/LLocations',[
         }
     }
 ]);
-
-
-
-// Setup Restify Server
-var server = restify.createServer();
-server.listen(process.env.port || process.env.PORT || 3978, function () {
-    console.log('%s listening to %s', server.name, server.url);
-});
-server.post('/api/messages', connector.listen());
-
-
+}

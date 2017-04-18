@@ -5,5 +5,37 @@
     "botbuilder-location": "^1.1.0",
     "restify": "^4.3.0",
     "sync-request": "^4.0.2"
-  }
+  },
+  "name": "projectsteve",
+  "description": "An AI based conversational agent for Stevens Institute of technology built using Microsoft Bot Framework, Microsoft LUIS, Algolia Search.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshaykumarvikram/ProjectSteve.git"
+  },
+  "keywords": [
+    "bot",
+    "framework",
+    "chatbot",
+    "stevens",
+    "institute",
+    "of",
+    "tech",
+    "convertional",
+    "agent",
+    "LUIS",
+    "cognitive",
+    "computing"
+  ],
+  "author": "Akshay kumar vikram",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/akshaykumarvikram/ProjectSteve/issues"
+  },
+  "homepage": "https://github.com/akshaykumarvikram/ProjectSteve#readme"
 }
