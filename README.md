@@ -12,10 +12,12 @@ Location Services: In the first stage of the project, we have focused on the loc
 
 ## Demo
 ### Searching for Steve on FB Messenger
-<img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/FbScearch.jpeg" width="300"> <img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/StartScreen.jpeg" width="300"> <img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/hi.jpeg" width="300">
+<img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/FbScearch.jpeg" width="300"> 
+### Start screen 
+<img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/StartScreen.jpeg" width="300"> <img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/hi.jpeg" width="300">
 ### Example 1: Finding a building and navigating to it.
 <img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/googlemaps.jpeg" width="300"><img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/googlemaps2.jpeg" width="300">
 ### Example 2: Shuttle services
-<img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/shuttleservices.jpeg" width="300">
-<img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/shuttleservices2.jpeg" width="300">
-<img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/shuttleservices#.jpeg" width="300">
+<img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/shuttleServices.jpeg" width="300">
+<img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/shuttleServices2.jpeg" width="300">
+<img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/ShuttleServices%23.jpeg" width="300">
