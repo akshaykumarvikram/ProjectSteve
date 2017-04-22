@@ -12,4 +12,4 @@ Location Services: In the first stage of the project, we have focused on the loc
 
 ## Demo
 ### Search for AskSteve on FB Messenger
-![FB Search](https://github.com/akshaykumarvikram/ProjectSteve)
+<img src="./Images/FbSearch.jpeg" width="200">
