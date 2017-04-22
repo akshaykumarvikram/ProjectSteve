@@ -17,13 +17,12 @@ Location Services: In the first stage of the project, we have focused on the loc
 
 ## Start screen 
 
-<img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/StartScreen.jpeg" width="250"> 
-<img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/hi.jpeg" width="250">
+<img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/StartScreen.jpeg" width="250"><img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/hi.jpeg" width="250">
 
 ## Example 1: Finding a building and navigating to it.
 
 <img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/googlemaps.jpeg" width="250">
-<img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/googlemaps2.jpeg" width="250">
+<img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/GoogleMaps2.jpeg" width="250">
 
 ## Example 2: Shuttle services
 
