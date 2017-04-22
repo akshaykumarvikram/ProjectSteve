@@ -11,5 +11,5 @@ The chatbot was built using *__Microsoft Bot-Framework__*, *__Microsoft LUIS__*(
 Location Services: In the first stage of the project, we have focused on the location services. The bot is currently capable of answering any location based question related to stevens
 
 ## Demo
-### Search for AskSteve on FB Messenger
-<img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/FbScearch.jpeg" width="200">
+### Search for AskSteve on FB Messenger                                   StartScreen
+<img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/FbScearch.jpeg" width="300"> <img src="https://github.com/akshaykumarvikram/ProjectSteve/blob/master/Images/StartScreen.jpeg" width="300">
